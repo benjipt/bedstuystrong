@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+}
+
+/* Header */
+
+#header {
+    background-image: url(./images/BedStuyBLM.jpg);
+    background-color: #000000;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#header-img {
+    width: auto;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+/* Navigation */
+
+#nav-bar {
+    position: fixed;
+    top: 0;
+    background: linear-gradient(#FFD447, #CBCDCD);
+    width: 100%;
+}
+
+.row {
+    display: flex;
+}
+
+.main-nav {
+    display: flex;
+    margin: auto;
+    list-style: none;
+    padding-left: 8em;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 2em;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    padding: 8px 0;
+    color: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid #0245AA transparent;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #6E7271;
+}
+
+/* Text */
+
+#text {
+    line-height: 1.8;
+    padding: 60px 4em;
+    text-align: start;
+}
+
+h2 {
+    padding: 20px 0;
+    text-align: center;
+}
